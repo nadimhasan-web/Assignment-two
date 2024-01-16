@@ -120,7 +120,7 @@ nav .menu_bar{
     border-radius: 8px;
     border: none;
     outline: none;
-    width: 82%;
+    width: 174px;
 }
 .form_box input::placeholder{
     color: #fff;
@@ -272,14 +272,78 @@ nav .menu_bar{
 .two{
     grid-column: 7/span 6;
     border: 1px solid rgba(41, 206, 246, 0.20);
-   background-color: rgba(41, 206, 246, 0.05); 
+    background-color: rgba(41, 206, 246, 0.05); 
 }
 .three{
     grid-column: 4/span 6;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background-color: rgba(233, 68, 68, 0.05);
 }
-
+/* travel benefit part */
+#benefit_part{
+    margin-bottom: 100px;
+}
+#benefit_part .section_head{
+    font-size: 40px;
+    font-family: var(--mulish);
+    font-weight: 800;
+    color: var(--secondary_color);
+    margin-bottom: 24px;
+    text-align: center;
+}
+#benefit_part .section_description{
+    font-size: 16px;
+    font-family: var(--mulish);
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 16px;
+    text-align: center;
+}
+.benefit_content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 30px;
+}
+.benefit_content .benefit_card img{
+    background-color: #007F5F1A;
+    padding: 15px;
+    border-radius: 5px;
+}
+.benefit_card{
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.benefit_card h3{
+    font-size: 24px;
+    font-family: var(--mulish);
+    font-weight: 800;
+    color: var(--secondary_color);
+    margin: 32px 0px 16px 0px;
+}
+.benefit_card p{
+    font-size: 16px;
+    font-family: var(--mulish);
+    font-weight: 400;
+    color: #5A5A5D;
+}
+.cheap{
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+}
+.book{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background-color: rgba(41, 206, 246, 0.05); 
+}
+.support{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background-color: rgba(233, 68, 68, 0.05);
+}
+.offer{
+    border: 1px solid rgba(233, 68, 219, 0.20);
+    background-color: rgba(233, 68, 219, 0.05);
+}
 
 
 
@@ -361,6 +425,27 @@ nav .menu_bar{
         grid-column: 1/span 1;
     }
     .three{
+        grid-column: 1/span 1;
+    }
+    /* travel benefit */
+    .benefit_content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .benefit_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cheap{
+        grid-column: 1/span 1;
+    }
+    .book{
+        grid-column: 1/span 1;
+    }
+    .support{
+        grid-column: 1/span 1;
+    }
+    .offer{
         grid-column: 1/span 1;
     }
 }
