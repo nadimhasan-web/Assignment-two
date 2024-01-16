@@ -217,8 +217,8 @@ nav .menu_bar{
 }
 .img_two p{
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 38%;
+    left: 33%;
 }
 .img_three{
     grid-column: 1/span 3;
@@ -226,8 +226,8 @@ nav .menu_bar{
 }
 .img_three p{
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 43%;
+    left: 35%;
 }
 .img_four{
     grid-column: 4/span 6;
@@ -235,8 +235,8 @@ nav .menu_bar{
 }
 .img_four p{
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 42%;
+    left: 25%;
 }
 .img_five{
     grid-column: 10/span 3;
@@ -253,8 +253,8 @@ nav .menu_bar{
 }
 .img_six p{
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 40%;
+    left: 34%;
 }
 .img_seven{
     grid-column: 6/span 7;
@@ -262,8 +262,8 @@ nav .menu_bar{
 }
 .img_seven p{
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 41%;
+    left: 35%;
 }
 /* chose us section */
 #chose_us .section_head{
